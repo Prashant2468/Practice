@@ -1,19 +1,3 @@
-/* Definition :  HappyNumber:A number is called happy if it leads to 1 after a sequence of steps where in each step number is replaced by the
-                 sum of squares of its digit , that is if we start with HappyNumber and keep replacing it with digits square sum , we reach1.
-
-Example : 1,7,10,13,19,23,28,31,32,44,49,68,70,79,82,86,91,94,97,100
-UserInput:n=19
-Output:True
-19 is HappyNumber,
-1^2+9^2=82
-8^2+2^2=68
-6^2+8^2=100
-1^2+0^2+0^2=1
-As we reached 1 , 19 is a HappyNumber.
-Input:n=20
-Output:False
-*/
-
 /*
 Problem Statement : Write a Java program that checks whether a given string is symmetric in terms of bracket pairs ((), {}, []). A string is considered symmetric if:
 -> The first half of the string consists of only opening brackets ((, {, [), and
@@ -24,7 +8,6 @@ Constraints:
 The input string will only contain brackets ((), {}, []).
 The length of the string is even (for simplicity).
 The program should use a stack to validate bracket symmetry.
-
 */
 
 // Solution : 1
