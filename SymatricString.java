@@ -1,9 +1,21 @@
+/*
+Problem Statement : Write a Java program that checks whether a given string is symmetric in terms of bracket pairs ((), {}, []). A string is considered symmetric if:
+-> The first half of the string consists of only opening brackets ((, {, [), and
+-> The second half consists of the corresponding closing brackets (), }, ]) in the correct order.
+
+Constraints:
+
+The input string will only contain brackets ((), {}, []).
+The length of the string is even (for simplicity).
+The program should use a stack to validate bracket symmetry.
+*/
+
+// Solution : 1
+
 import java.util.*;
 class SymatricString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        // Input String from the user
         System.out.println("Enter the String : ");
         String s = sc.nextLine();
         Stack<Character> stack = new Stack<>();
@@ -43,6 +55,8 @@ class SymatricString {
         }
     }
 }
+
+// Solution : 1
 
 // import java.util.*;
 // class SymmetricString {
